@@ -1,6 +1,4 @@
 <?php
-include "koneksi.php";
 session_start();
-if(!isset($_SESSION)['user']){    
-}
+$koneksi = mysqli_connect ('localhost','root','','perpustakaan_digital')
 ?>
